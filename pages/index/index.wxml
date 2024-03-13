@@ -1,0 +1,8 @@
+<view class="index-wrapper">
+    <view class="title">一键运动打卡</view>
+    <view class="index">
+        <view class="out-wrapper">
+            <view class="btn-wrapper">一键打卡</view>
+        </view>
+    </view>
+</view>

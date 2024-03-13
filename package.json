@@ -1,0 +1,22 @@
+{
+    "name": "platform-groundpromotion-weapp",
+    "version": "1.0.0",
+    "description": "请叫我实用小程序",
+    "main": "",
+    "directories": {
+        "doc": "doc"
+    },
+    "scripts": {
+        "open": "./script/openDev.sh",
+        "newPage": "hygen page new test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "ssh://git@git.sankuai.com/nibfe/platform-groundpromotion-weapp.git"
+    },
+    "author": "zhengdewei",
+    "license": "ISC",
+    "dependencies": {
+        "hygen": "^6.1.0"
+    }
+}

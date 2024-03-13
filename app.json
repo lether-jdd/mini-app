@@ -1,12 +1,26 @@
 {
   "pages": [
-      "page/component/index"
+      "pages/index/index",
+      "pages/my/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "小程序演示",
     "navigationBarBackgroundColor": "#fbf9fe",
     "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath":"./image/home.png",
+      "selectedIconPath":"./image/home-active.png"
+    }, {
+      "pagePath": "pages/my/index",
+      "text": "我的",
+      "iconPath":"./image/my.png",
+      "selectedIconPath":"./image/my-active.png"
+    }]
   },
   "networkTimeout": {
     "request": 10000,
